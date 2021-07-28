@@ -8,4 +8,8 @@ let v = Math.floor(Math.random() * verbs.length);
 let a = Math.floor(Math.random() * adjectives.length);
 let n1 = Math.floor(Math.random() * nouns.length);
 
-console.log(`Your ${adjectives[a]} ${nouns[n]} is ${verbs[v]} the ${nouns[n1]}`);
+// console.log(`Your ${adjectives[a]} ${nouns[n]} is ${verbs[v]} the ${nouns[n1]}`);
+
+let messageBox = document.getElementById('message');
+let message = `Your ${adjectives[a]} ${nouns[n]} is ${verbs[v]} the ${nouns[n1]}`;
+messageBox.innerHTML = message;
