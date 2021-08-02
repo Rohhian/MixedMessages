@@ -8,4 +8,9 @@ div {
     text-align: center;
     align-items: center;
     justify-items: center;
+    margin: 10vmax 1vmax
+}
+
+p {
+    font-size: 5vmax;
 }
