@@ -3,25 +3,25 @@
     border: 0;
 }
 
-div {
-    text-align: center;
+html {
+    display: flex;
+    height: 100vh;
     align-items: center;
-    justify-items: center;
-    margin: 10vmax 1vmax
+    justify-content: center;
 }
 
-p {
-    display: inline-block;
-    padding: 10px;
+div {
+    text-align: center;
     font-size: 5vmax;
     background-color: yellow;
     border-radius: 10px;
     width: fit-content;
-    animation-name: fadeIn;
+    padding: 0.2em;
+    animation-name: fadeInOut;
     animation-duration: 5s;
 }
 
-@keyframes fadeIn {
+@keyframes fadeInOut {
     0% {
         opacity: 0;
     }
