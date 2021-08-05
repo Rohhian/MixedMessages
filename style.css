@@ -4,7 +4,7 @@
 }
 
 html {
-    display: flex;
+    display: grid;
     height: 100vh;
     align-items: center;
     justify-content: center;
@@ -12,7 +12,7 @@ html {
 
 div {
     text-align: center;
-    font-size: 5vmax;
+    font-size: 4vmax;
     background-color: yellow;
     border-radius: 10px;
     width: fit-content;
